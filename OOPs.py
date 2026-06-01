@@ -135,7 +135,7 @@ print("Three numbers:", calc.add(10, 20, 30))
 
 class Shape:
     def area(self, *args):
-        if len(args) == 1:
+        if len(args) == 1: #using if control statement
             print("Square Area:", args[0] ** 2)
         elif len(args) == 2:
             print("Rectangle Area:", args[0] * args[1])
