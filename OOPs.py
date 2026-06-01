@@ -81,10 +81,8 @@ class Cat(Animal):
 
 d = Dog()
 c = Cat()
-
 d.info()
 d.sound()
-
 c.info()
 c.sound()
 
