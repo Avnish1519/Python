@@ -56,7 +56,7 @@ class Parent(Grandparent):
 
 class Child1(Parent):
     def property_c(self):
-        print("Child's Apartment")
+        print("Child's Apartment") #printing the output
 
 obj = Child1()
 obj.property_gp()
