@@ -38,4 +38,4 @@ n = len(missing_list) + 1
 total_sum = n * (n + 1) // 2
 actual_sum = sum(missing_list)
 missing_element = total_sum - actual_sum
-print("Missing element:", missing_element)
+print("Missing element:", missing_element) #printing the output
