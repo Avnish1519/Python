@@ -168,7 +168,7 @@ class Employee:
 
 class Manager(Employee):
     def salary(self):
-        print("Manager Salary: $3000 + Bonus $2000")
+        print("Manager Salary: $3000 + Bonus $2000") #printing the output
 
 m = Manager()
 m.salary()
