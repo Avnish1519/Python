@@ -104,8 +104,8 @@ class Staff:
 
 class Student1(Teacher, Staff):
     def func4(self):
-        print("Student info")
-
+        print("Student info") #printing the output
+        
 s = Student1()
 
 s.func1()
