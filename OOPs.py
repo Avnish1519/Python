@@ -11,7 +11,7 @@ class Person:
 
 class Student(Person):
     def __init__(self, name, age, roll_no):
-        super().__init__(name, age)
+        super().__init__(name, age) #using super keyword
         self.roll_no = roll_no
 
     def show_student(self):
