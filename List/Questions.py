@@ -31,7 +31,7 @@ zeroes = [x for x in list_with_zeroes if x == 0]
 print(non_zeroes + zeroes)
 #-----------------------------------------------------------------------------------------------
 shifted_list = my_list[-2:] + my_list[:-2]
-print(shifted_list)
+print(shifted_list)  #printing the output
 #-----------------------------------------------------------------------------------------------
 missing_list = [1, 2, 3, 5, 6, 7, 8, 9, 10]
 n = len(missing_list) + 1
